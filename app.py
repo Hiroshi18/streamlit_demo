@@ -3,8 +3,9 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-tokien = st.secrets["TOKEN_API"]
+tokien = st.secrets["API_TOKEN"]
 st.write(tokien)
+
 st.markdown("""# This is a header
 ## This is a sub header
 This is a markdown""")
